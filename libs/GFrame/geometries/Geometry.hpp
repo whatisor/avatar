@@ -1,7 +1,7 @@
 #ifndef Geometry_hpp
 #define Geometry_hpp
 
-#include <GLUT/glut.h>
+#include "../base/glsupport.h"
 #include <stdio.h>
 #include <vector>
 #include "../base/Vertex.h"

@@ -1,8 +1,6 @@
 #ifndef ColorShader_h
 #define ColorShader_h
-
-class Shader;
-
+#include <programs/Shader.h>
 class ColorShader : public Shader {
 public:
     

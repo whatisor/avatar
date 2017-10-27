@@ -1,10 +1,9 @@
 #ifndef Cubemap_hpp
 #define Cubemap_hpp
 
+#include "../base/glsupport.h"
 #include <stdio.h>
 #include <string>
-#include <GLUT/glut.h>
-
 class Cubemap {
 public:
     Cubemap();

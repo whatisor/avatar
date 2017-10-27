@@ -2,7 +2,7 @@
 #define Texture_hpp
 
 #include <stdio.h>
-#include <GLUT/glut.h>
+#include "../base/glsupport.h"
 
 class Texture {
 

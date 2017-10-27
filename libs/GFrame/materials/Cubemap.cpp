@@ -1,5 +1,5 @@
+
 #include "Cubemap.hpp"
-#include "../base/glsupport.h"
 
 Cubemap::Cubemap() : texture(0)
 {

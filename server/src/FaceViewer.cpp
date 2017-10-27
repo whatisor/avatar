@@ -5,7 +5,7 @@
  * Examples: ./FaceViewer face.obj shaders 5055
  * Press q to quit.
  */
-#include <GLUT/glut.h>
+
 #include "base/glsupport.h"
 #include "base/quat.h"
 #include "core/Transform.hpp"
@@ -62,6 +62,7 @@ void display(void) {
 }
 
 void init(std::string modelFile, std::string shadersDir) {
+    glewInit();
     glClearColor(0.7, 0.7, 0.7, 1.0);
     glClearDepth(0.0);
     glCullFace(GL_BACK);
@@ -72,7 +73,6 @@ void init(std::string modelFile, std::string shadersDir) {
     
     std::string vertexShader = shadersDir + "/vertex_shader_simple.glsl";
     std::string fragmentShader = shadersDir + "/fragment_shader_color.glsl";
-
     auto colorShader = std::make_shared<ColorShader>();
     colorShader->createProgram(vertexShader.c_str(), fragmentShader.c_str());
 

@@ -2,6 +2,8 @@
 #define BLOCKINGQUEUE_H
 #include <vector>
 #include <queue>
+#include <memory>
+#include <condition_variable>
 #include "base/cvec.h"
 #include <mutex>
 

@@ -1,8 +1,9 @@
-#include "Scene.hpp"
+
 #include "Camera.hpp"
 #include "../entities/Entity.hpp"
 #include "../physics/Raycaster.hpp"
 #include "../glObjects/FrameBufferObject.hpp"
+#include "Scene.hpp"
 
 std::unordered_map<std::string, std::shared_ptr<Entity> > Scene::entityTable;
 std::vector<std::shared_ptr<Entity> > Scene::entities;

@@ -11,5 +11,5 @@ add_executable(FaceMoCap FacialMotionCapture.cpp)
 
 target_link_libraries(FaceMoCap ${OpenCV_LIBS} dlib::dlib AvatarClient)
 
-SET(CMAKE_CXX_FLAGS "-std=c++11 -stdlib=libc++")
+SET(CMAKE_CXX_FLAGS "-std=c++11 ")
 

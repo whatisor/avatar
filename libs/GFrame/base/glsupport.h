@@ -8,9 +8,10 @@
 #include <iostream>
 #include <stdexcept>
 #include <vector>
+#include <memory>
 
 #ifdef __APPLE__
-    #include <GLUT/glut.h>
+    #include <GL/glut.h>
 #else
     #include <GL/glew.h>
     #include <GL/glut.h>

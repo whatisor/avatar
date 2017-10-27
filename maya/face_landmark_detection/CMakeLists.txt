@@ -10,5 +10,5 @@ file(GLOB PROJECT_SOURCES *.cpp)
 add_executable(${PROJECT_NAME} ${PROJECT_SOURCES})
 target_link_libraries(${PROJECT_NAME} dlib::dlib ${OpenCV_LIBS})
 
-SET(CMAKE_CXX_FLAGS "-std=c++11 -stdlib=libc++")
+SET(CMAKE_CXX_FLAGS "-std=c++11 ")
 

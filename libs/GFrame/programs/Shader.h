@@ -1,6 +1,7 @@
 #ifndef Shader_h
 #define Shader_h
-
+#include <memory>
+#include <iostream>
 class Entity;
 class Light;
 class Camera;
@@ -16,6 +17,7 @@ public:
 
     virtual void createProgram(const char* vertexShaderFileName, const char* fragmentShaderFileName) {
         programId = glCreateProgram();
+        std::cout<<__FUNCTION__<<std::endl;
         readAndCompileShader(programId, vertexShaderFileName, fragmentShaderFileName);
     }
     virtual void setLocationsAndDraw(Entity& entity, std::shared_ptr<Camera> camera, std::shared_ptr<Light> light0, std::shared_ptr<Light> light1) = 0;

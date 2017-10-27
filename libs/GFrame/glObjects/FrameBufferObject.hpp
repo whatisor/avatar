@@ -1,7 +1,7 @@
 #ifndef FrameBufferObject_hpp
 #define FrameBufferObject_hpp
 
-#include <GLUT/glut.h>
+#include "../base/glsupport.h"
 
 class FrameBufferObject {
 

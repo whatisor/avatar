@@ -1,7 +1,7 @@
 #ifndef Scene_hpp
 #define Scene_hpp
 
-#include <GLUT/glut.h>
+#include "../base/glsupport.h"
 #include <unordered_map>
 #include <vector>
 #include <string>

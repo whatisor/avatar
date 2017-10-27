@@ -3,7 +3,6 @@
 
 #include "../base/cvec.h"
 #include "../base/stb_image.h"
-#include "../base/glsupport.h"
 #include "Texture.hpp"
 #include "Cubemap.hpp"
 

@@ -4,7 +4,7 @@ project(AvatarClient)
 
 find_package(OpenCV REQUIRED)
 
-SET(CMAKE_CXX_FLAGS "-std=c++11 -stdlib=libc++")
+SET(CMAKE_CXX_FLAGS "-std=c++11 -fPIC")
 
 include(../libs/dlib/cmake)
 include_directories(${PROJECT_SOURCE_DIR}/include)

@@ -2,6 +2,7 @@
 #define SOCKETSERVER_H
 #include "Socket.h"
 #include "BufferData.h"
+#include <memory>
 
 namespace avt  {
 
