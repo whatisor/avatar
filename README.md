@@ -8,9 +8,10 @@ This project is still under development.
 * (TODO) Facial motion mimicked by a real-time avatar.
 
 ## Dependencies
-* OpenCV (>=3.2.0)
+* OpenCV (>=3.1.0)
 * OpenGL
-* GLUT
+* GLUT or FREEGLUT
+* GLEW
 * dlib (included)
 * GFrame (included)
 * CMake
@@ -21,7 +22,7 @@ This will build all the libraries and executables.
 ```
 mkdir build
 cd build
-cmake .. -DUSE_AVX_INSTRUCTIONS=1
+cmake ..
 make -j
 make install
 ```
